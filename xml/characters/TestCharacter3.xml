@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><character>
+    <basic_info>
+        <name>Test Character 3</name>
+        <metatype/>
+        <age/>
+        <sex/>
+        <height/>
+        <lifestyle/>
+        <notes/>
+    </basic_info>
+    <attributes>
+        <body>3</body><agility>1</agility><reaction>1</reaction><strength>1</strength><willpower>5</willpower><logic>1</logic><intuition>1</intuition><charisma>1</charisma><edge>1</edge><essence>6</essence><magic optional="true"/></attributes><stats><initiative/><astral_initiative/><matrix_initiative/><physical_limit/><mental_limit/><social_limit/><lifestyle/><nuyen/><karma/></stats><qualities/><active_skills><skill><name>Pistols</name><attribute>agility</attribute><rating>5</rating><specialization>Holdouts</specialization></skill><skill><name>Longarms</name><attribute>agility</attribute><rating>3</rating><specialization>Shotguns</specialization></skill></active_skills><knowledge_skills/><languages/><contacts/><spells/><powers/><cyberware/><bioware/><gear><armor/><melee_weapons/><ranged_weapons/><misc/></gear><notes/></character>

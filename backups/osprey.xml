@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="main.xsl"?>
+
+<character>
+	<basic_info>
+		<name>Nigel Ellingswortham</name>
+		<metatype>human</metatype>
+		<age>59</age>
+		<sex>M</sex>
+		<height>5' 8"</height>
+		<notes>British AF</notes>
+	</basic_info>
+	<attributes>
+		<body>2</body>
+		<agility>4</agility>
+		<reaction>3</reaction>
+		<strength>2</strength>
+		<willpower>4</willpower>
+		<logic>4</logic>
+		<intuition>3</intuition>
+		<charisma>5</charisma>
+		<edge>3</edge>
+		<essence>6</essence>
+		<magic>4</magic>
+		<resonance />
+	</attributes>
+	<stats>
+		<initiative>7 + 1d6</initiative>
+		<astral_initiative>8 + 2d6</astral_initiative>
+		<physical_limit>3</physical_limit>
+		<mental_limit>6</mental_limit>
+		<social_limit>7</social_limit>
+		<lifestyle>High</lifestyle>
+		<nuyen>32,060</nuyen>
+		<karma>25</karma>
+	</stats>
+	<qualities>
+		<quality>
+			<name>First Impression</name>
+			<type>positive</type>
+			<karma>11</karma>
+			<info>+2 to Social Tests during first meeting</info>
+		</quality>
+		<quality>
+			<name>Quick Healer</name>
+			<type>positive</type>
+			<karma>3</karma>
+			<info></info>
+		</quality>
+		<quality>
+			<name>Distinctive Style</name>
+			<type>negative</type>
+			<karma>5</karma>
+			<info></info>
+		</quality>
+		<quality>
+			<name>SINner</name>
+			<type>negative</type>
+			<karma>20</karma>
+			<info></info>
+		</quality>
+	</qualities>
+	<active_skills>
+		<skill_group>
+			<name>Athletics</name>
+			<rating>3</rating>
+			<skill>
+				<name>Running</name>
+				<attribute>strength</attribute>
+			</skill>
+			<skill>
+				<name>Gymnastics</name>
+				<attribute>strength</attribute>
+			</skill>
+			<skill>
+				<name>Climbing</name>
+				<attribute>strength</attribute>
+			</skill>
+		</skill_group>
+		<skill_group>
+			<name>Electronics</name>
+			<rating>3</rating>
+			<skill>
+				<name>Computers</name>
+				<attribute>strength</attribute>
+			</skill>
+			<skill>
+				<name>Hardware</name>
+				<attribute>strength</attribute>
+			</skill>
+			<skill>
+				<name>Software</name>
+				<attribute>strength</attribute>
+			</skill>
+		</skill_group>
+		<skill>
+			<name>Blades</name>
+			<attribute>agility</attribute>
+			<rating>1</rating>
+			<specialization>Knives</specialization>
+		</skill>
+		<skill>
+			<name>Clubs</name>
+			<attribute>agility</attribute>
+			<rating>1</rating>
+			<specialization>Batons</specialization>
+		</skill>
+		<skill>
+			<name>Escape Artist</name>
+			<attribute>agility</attribute>
+			<rating>3</rating>
+		</skill>
+		<skill>
+			<name>Locksmith</name>
+			<attribute>agility</attribute>
+			<rating>4</rating>
+		</skill>
+		<skill>
+			<name>Longarms</name>
+			<attribute>agility</attribute>
+			<rating>2</rating>
+			<specialization>Sniper Rifles</specialization>
+		</skill>
+		<skill>
+			<name>Palming</name>
+			<attribute>agility</attribute>
+			<rating>3</rating>
+			<specialization>Pickpocket</specialization>
+		</skill>
+		<skill>
+			<name>Pistols</name>
+			<attribute>agility</attribute>
+			<rating>1</rating>
+			<specialization>Tasers</specialization>
+		</skill>
+		<skill>
+			<name>Sneaking</name>
+			<attribute>agility</attribute>
+			<rating>5</rating>
+			<specialization>Urban</specialization>
+		</skill>
+		<skill>
+			<name>Unarmed Combat</name>
+			<attribute>agility</attribute>
+			<rating>1</rating>
+			<specialization>Subduing Combat</specialization>
+		</skill>
+		<skill>
+			<name>Con</name>
+			<attribute>charisma</attribute>
+			<rating>6</rating>
+		</skill>
+		<skill>
+			<name>Etiquette</name>
+			<attribute>charisma</attribute>
+			<rating>3</rating>
+			<specialization>Corporate</specialization>
+		</skill>
+		<skill>
+			<name>Negotiation</name>
+			<attribute>charisma</attribute>
+			<rating>2</rating>
+			<specialization>Contracts</specialization>
+		</skill>
+		<skill>
+			<name>Disguise</name>
+			<attribute>intuition</attribute>
+			<rating>2</rating>
+			<specialization>Cosmetic</specialization>
+		</skill>
+		<skill>
+			<name>Perception</name>
+			<attribute>intuition</attribute>
+			<rating>4</rating>
+		</skill>
+		<skill>
+			<name>Demolitions</name>
+			<attribute>logic</attribute>
+			<rating>2</rating>
+		</skill>
+		<skill>
+			<name>First Aid</name>
+			<attribute>logic</attribute>
+			<rating>2</rating>
+			<specialization>Gunshot Wounds</specialization>
+		</skill>
+		<skill>
+			<name>Spellcasting</name>
+			<attribute>magic</attribute>
+			<rating>4</rating>
+			<specialization>Detection</specialization>
+		</skill>
+		<skill>
+			<name>Counterspelling</name>
+			<attribute>magic</attribute>
+			<rating>4</rating>
+			<specialization>Combat</specialization>
+		</skill>
+		<skill>
+			<name>Ritual Spellcasting</name>
+			<attribute>magic</attribute>
+			<rating>4</rating>
+		</skill>
+		<skill>
+			<name>Blades</name>
+			<attribute>agility</attribute>
+			<rating>1</rating>
+			<specialization>Knives</specialization>
+		</skill>
+	</active_skills>
+	<knowledge_skills>
+		<skill>
+			<name>Antique Furniture</name>
+			<rating>3</rating>
+		</skill>
+		<skill>
+			<name>Interior Design</name>
+			<rating>2</rating>
+		</skill>
+		<skill>
+			<name>History</name>
+			<rating>5</rating>
+		</skill>
+		<skill>
+			<name>Security Corporations</name>
+			<rating>3</rating>
+		</skill>
+		<skill>
+			<name>Corporate Security Procedures</name>
+			<rating>3</rating>
+		</skill>
+		<skill>
+			<name>Magical Artifacts</name>
+			<rating>3</rating>
+		</skill>
+	</knowledge_skills>
+	<languages>
+		<language>
+			<name>English</name>
+			<rating>N</rating>
+		</language>
+		<language>
+			<name>Mandarin</name>
+			<rating>3</rating>
+		</language>
+		<language>
+			<name>Lakota</name>
+			<rating>2</rating>
+		</language>
+		<language>
+			<name>Sperethiel</name>
+			<rating>2</rating>
+		</language>
+	</languages>
+	<contacts>
+		<contact>
+			<name>"Cyberdad"</name>
+			<loyalty>1</loyalty>
+			<connection>2</connection>
+			<info>Decker friend, middle-aged dad</info>
+		</contact>
+		<contact>
+			<name>Mary Shelley</name>
+			<loyalty>2</loyalty>
+			<connection>2</connection>
+			<info>Talismonger and member of my Ritual Circle, lady my age who is a sometimes romantic interest</info>
+		</contact>
+		<contact>
+			<name>Gemma Gonson</name>
+			<loyalty>1</loyalty>
+			<connection>1</connection>
+			<info>Antiquities dealer, intelligent young woman with a fascination in the strange and bizarre</info>
+		</contact>
+		<contact>
+			<name>Daniel Rides-Hungry</name>
+			<loyalty>1</loyalty>
+			<connection>3</connection>
+			<info>Security Black Marketeer, middle-aged man who sells B&amp;E equipment, security systems equipment and information on security system flaws and exploits</info>
+		</contact>
+	</contacts>
+	<spells>
+		<spell>
+			<name>Physical Mask</name>
+			<direct_or_indirect></direct_or_indirect>
+			<type></type>
+			<duration></duration>
+			<range></range>
+			<drain></drain>
+			<damage></damage>
+			<info></info>
+		</spell>
+		<spell>
+			<name>Mana Static</name>
+			<direct_or_indirect></direct_or_indirect>
+			<type></type>
+			<duration></duration>
+			<range></range>
+			<drain></drain>
+			<damage></damage>
+			<info></info>
+		</spell>
+		<spell>
+			<name>Analyze Magic</name>
+			<direct_or_indirect></direct_or_indirect>
+			<type></type>
+			<duration></duration>
+			<range></range>
+			<drain></drain>
+			<damage></damage>
+			<info></info>
+		</spell>
+		<spell>
+			<name>Combat Sense</name>
+			<type>M</type>
+			<duration>Sustained</duration>
+			<range>Touch</range>
+			<drain>Force</drain>
+			<info>The subject can subconsciously analyze combat and other dangerous situations within range, sensing events a split-second before they happen. Every hit on the Spellcasting Test adds 1 die for Reaction on Surprise Tests, and also to rolls made when defending against ranged and melee attacks as long as the spell remains in effect.</info>
+		</spell>
+		<spell>
+			<name>Detect Life, Extended</name>
+			<type>M</type>
+			<duration>Sustained</duration>
+			<range>Touch</range>
+			<drain>Force - 3</drain>
+			<info>The subject detects all living beings (but not spirits) within range of the sense and knows their number and relative location. In a crowded area, the spell is virtually useless, picking up a blurred mass of traces of life.</info>
+		</spell>
+		<spell>
+			<name>Detect Magic</name>
+			<type>M</type>
+			<duration>Sustained</duration>
+			<range>Touch</range>
+			<drain>Force - 2</drain>
+			<info>The subject can detect the presence of all foci, spells, wards, magical lodges, alchemical preparations, active rituals, and spirits within range of the sense. It does not detect Awakened characters or critters, astral signatures, alchemical preparations that that have expired or already triggered, or the effects of permanent spells once they have become permanent.</info>
+		</spell>
+		<spell>
+			<name>Ritual: Ward</name>
+			<direct_or_indirect></direct_or_indirect>
+			<type></type>
+			<duration></duration>
+			<range></range>
+			<drain></drain>
+			<damage></damage>
+			<info></info>
+		</spell>
+		<spell>
+			<name>Ritual: Watcher</name>
+			<direct_or_indirect></direct_or_indirect>
+			<type></type>
+			<duration></duration>
+			<range></range>
+			<drain></drain>
+			<damage></damage>
+			<info></info>
+		</spell>
+	</spells>
+	<gear>
+		<armor>
+			<item>
+				<name>Actioneer Business Clothes</name>
+				<armor>8</armor>
+				<mods>
+					<mod>
+						<name>Chemical Seal</name>
+						<rating>3</rating>
+						<info>+3 to Chemical Resistance Tests</info>
+					</mod>
+				</mods>
+			</item>
+		</armor>
+		<melee_weapons>
+			<item>
+				<name>Shock Baton</name>
+				<damage>8S</damage>
+				<accuracy>4</accuracy>
+				<reach>1</reach>
+				<skill>Clubs</skill>
+				<specialization>Batons</specialization>
+				<availability>8</availability>
+				<cost>100</cost>
+			</item>
+		</melee_weapons>
+		<ranged_weapons>
+			<item>
+				<name>Ares Predator</name>
+				<damage>7P</damage>
+				<accuracy>5</accuracy>
+				<ap>-2</ap>
+				<ammo>10c</ammo>
+				<skill>Pistols</skill>
+				<specialization>Heavy Pistols</specialization>
+				<availability>10</availability>
+				<cost>850</cost>
+				<mods>
+					<mod>
+						<name>Smartgun Internal System</name>
+						<info>+2 Dice Pool</info>
+					</mod>
+					<mod>
+						<name>Gas Vents III</name>
+						<info>+2 RC</info>
+					</mod>
+				</mods>
+			</item>
+		</ranged_weapons>
+		<misc>
+			<item>
+				<name>Maglock Passkey</name>
+				<rating>3</rating>
+				<cost>3000</cost>
+				<info>+3 to Electronics Tests to bypass Maglocks</info>
+			</item>
+		</misc>
+		
+	</gear>
+	<notes>
+
+	</notes>
+</character>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SR5 Character Sheet</title>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="css/jquery-ui.min.css" />
+    <script src="js/main.js"></script>
+    <script src="js/dialogs.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <link href='https://fonts.googleapis.com/css?family=Orbitron:400,700|Nova+Square' rel='stylesheet' type='text/css' >
+    <link rel="icon" href="favicon.png" />
+</head>
+<body>
+    <div id="mainContainer">
+        <div id="headerContainer">
+            <ul id="charmenuheader">
+                <li>Characters
+                    <ul id="characters_menu">
+
+                    </ul>
+                </li>
+            </ul>
+            <span class="header_button" onclick="getCharacter(currentCharacter)">Reload</span>
+        </div>
+        <div id="mainContentContainer"></div>
+        <div id="dialogBox">
+            <div id="dialogBoxContent"></div>
+        </div>
+    </div>
+</body>
+</html>
