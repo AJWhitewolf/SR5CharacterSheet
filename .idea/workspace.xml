@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d490fc8f-a647-421e-8411-48d4a591d0f6" name="Default" comment="Updating nodeserver to correct notes appending">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="d490fc8f-a647-421e-8411-48d4a591d0f6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/nodeserver.js" afterPath="$PROJECT_DIR$/js/nodeserver.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml/characters/TestCharacter3.xml" afterPath="$PROJECT_DIR$/xml/characters/TestCharacter3.xml" />
     </list>
     <ignored path="SRCharacters.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -436,6 +432,13 @@
       <option name="number" value="Default" />
       <updated>1446159373678</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updating nodeserver to correct notes appending">
+      <created>1447019265885</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1447019265885</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
