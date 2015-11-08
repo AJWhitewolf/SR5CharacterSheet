@@ -3,7 +3,6 @@
  */
 //Import the HTTP module
 var http = require('http');
-var dispatcher = require('httpdispatcher');
 var fs = require('fs');
 var url = require('url');
 var path = require('path');
@@ -83,7 +82,12 @@ function getNodeByPos(doc, pos){
     var cNode = docRoot;
     for(var i=0;i<path.length;i++){
         if(isNaN(path[i])) {
-            cNode = cNode.getElementsByTagName(path[i])[0];
+            pnodes = cNode.childNodes;
+            for(var k=0;k<pnodes.length;k++){
+                if(pnodes[k].tagName == path[i]){
+                    cNode = pnodes[k];
+                }
+            }
         } else {
             cNode = cNode.childNodes[path[i]-1];
         }
@@ -109,14 +113,14 @@ function processRequest(req, res) {
                     res.writeHead(200, {'Content-Type': 'text/plain'});
                     res.end('{"response": "failure"}');
                 }
-                var xdocParser = new xmldom.DOMParser()
+                var xdocParser = new xmldom.DOMParser();
                 var xdoc = xdocParser.parseFromString(data);
 
                 var cNode = getNodeByPos(xdoc, "basic_info.name");
                 cNode.textContent = charName;
                 fs.exists(filename, function(exists){
                     if(exists){
-                        console.log("Unable to write new character file, character name already exists.")
+                        console.log("Unable to write new character file, character name already exists.");
                         res.writeHead(200, {'Content-Type': 'text/plain'});
                         res.end('{"response": "failure"}');
                     } else {
@@ -149,7 +153,7 @@ function processRequest(req, res) {
                     res.writeHead(200, {'Content-Type': 'text/plain'});
                     res.end('{"response": "failure"}');
                 }
-                var xdocParser = new xmldom.DOMParser()
+                var xdocParser = new xmldom.DOMParser();
                 var xdoc = xdocParser.parseFromString(data);
 
                 var cNode = getNodeByPos(xdoc, node);
@@ -219,7 +223,7 @@ function processRequest(req, res) {
                     res.writeHead(200, {'Content-Type': 'text/plain'});
                     res.end('{"response": "failure"}');
                 }
-                var xdocParser = new xmldom.DOMParser()
+                var xdocParser = new xmldom.DOMParser();
                 var xdoc = xdocParser.parseFromString(data);
 
                 var cNode = getNodeByPos(xdoc, position);
@@ -246,7 +250,7 @@ function processRequest(req, res) {
         case '/fetchCharacters':
             var clist = {
                 cList: []
-            }
+            };
             fs.readdir('../xml/characters/', function(err, items){
                 for(var i=0;i<items.length;i++){
                     var fCheck = items[i].split(".");
