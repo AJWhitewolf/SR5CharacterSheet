@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     $.ajax({
         type: 'GET',
-        url: 'http://localhost:9555/fetchCharacters',
+        url: '/fetchCharacters',
         dataType: 'text',
         success: function(response){
             var json = JSON.parse(response);
