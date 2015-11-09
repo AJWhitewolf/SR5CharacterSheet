@@ -204,7 +204,7 @@ function switchEdit(elem) {
             node: elem.id
         }
     }
-    sendTo("http://localhost:9555/update", 'payload=' + JSON.stringify(jdata), function (response) {
+    sendTo("/update", 'payload=' + JSON.stringify(jdata), function (response) {
         console.log(response);
     });
 }
@@ -263,7 +263,7 @@ function createNewSkill() {
             node: ser.serializeToString(bit)
         }
     };
-    sendTo("http://localhost:9555/addNode", "payload="+JSON.stringify(data), function(response){
+    sendTo("/addNode", "payload="+JSON.stringify(data), function(response){
         if(response['response'] == "success"){
             getCharacter(pcDoc.getElementsByTagName("basic_info")[0].getElementsByTagName("name")[0].childNodes[0].nodeValue);
             $("#dialogBox").dialog("close");
@@ -305,7 +305,7 @@ function createNewSkillGroup() {
             node: ser.serializeToString(bit)
         }
     };
-    sendTo("http://localhost:9555/addNode", "payload="+JSON.stringify(data), function(response){
+    sendTo("/addNode", "payload="+JSON.stringify(data), function(response){
         if(response['response'] == "success"){
             getCharacter(pcDoc.getElementsByTagName("basic_info")[0].getElementsByTagName("name")[0].childNodes[0].nodeValue);
             $("#dialogBox").dialog("close");
@@ -334,7 +334,7 @@ function addKnowledgeSkill() {
             node: ser.serializeToString(bit)
         }
     }
-    sendTo("http://localhost:9555/addNode", "payload="+JSON.stringify(jdata), function(response){
+    sendTo("/addNode", "payload="+JSON.stringify(jdata), function(response){
         if(response['response'] == "success"){
             getCharacter($(pcDoc).find('basic_info').find('name').text());
             $("#dialogBox").dialog("close");
@@ -360,7 +360,7 @@ function addLanguage() {
             node: ser.serializeToString(bit[0])
         }
     }
-    sendTo("http://localhost:9555/addNode", "payload="+JSON.stringify(jdata), function(response){
+    sendTo("/addNode", "payload="+JSON.stringify(jdata), function(response){
         if(response['response'] == "success"){
             getCharacter($(pcDoc).find('basic_info').find('name').text());
             $("#dialogBox").dialog("close");
@@ -390,7 +390,7 @@ function addContact() {
             node: ser.serializeToString(bit[0])
         }
     }
-    sendTo("http://localhost:9555/addNode", "payload="+JSON.stringify(jdata), function(response){
+    sendTo("/addNode", "payload="+JSON.stringify(jdata), function(response){
         if(response['response'] == "success"){
             getCharacter($(pcDoc).find('basic_info').find('name').text());
             $("#dialogBox").dialog("close");
@@ -417,7 +417,7 @@ function addSpell() {
             node: ser.serializeToString(bit[0])
         }
     }
-    sendTo("http://localhost:9555/addNode", "payload="+JSON.stringify(jdata), function(response){
+    sendTo("/addNode", "payload="+JSON.stringify(jdata), function(response){
         if(response['response'] == "success"){
             getCharacter($(pcDoc).find('basic_info').find('name').text());
             $("#dialogBox").dialog("close");
@@ -444,7 +444,7 @@ function addPower() {
             node: ser.serializeToString(bit[0])
         }
     }
-    sendTo("http://localhost:9555/addNode", "payload="+JSON.stringify(jdata), function(response){
+    sendTo("/addNode", "payload="+JSON.stringify(jdata), function(response){
         if(response['response'] == "success"){
             getCharacter($(pcDoc).find('basic_info').find('name').text());
             $("#dialogBox").dialog("close");
@@ -493,7 +493,7 @@ function addCyberLimb() {
             node: ser.serializeToString(bit[0])
         }
     }
-    sendTo("http://localhost:9555/addNode", "payload="+JSON.stringify(jdata), function(response){
+    sendTo("/addNode", "payload="+JSON.stringify(jdata), function(response){
         if(response['response'] == "success"){
             getCharacter($(pcDoc).find('basic_info').find('name').text());
             $("#dialogBox").dialog("close");
@@ -519,7 +519,7 @@ function addCyberItem() {
             node: ser.serializeToString(bit[0])
         }
     }
-    sendTo("http://localhost:9555/addNode", "payload="+JSON.stringify(jdata), function(response){
+    sendTo("/addNode", "payload="+JSON.stringify(jdata), function(response){
         if(response['response'] == "success"){
             getCharacter($(pcDoc).find('basic_info').find('name').text());
             $("#dialogBox").dialog("close");
@@ -546,7 +546,7 @@ function addBioware() {
             node: ser.serializeToString(bit[0])
         }
     }
-    sendTo("http://localhost:9555/addNode", "payload="+JSON.stringify(jdata), function(response){
+    sendTo("/addNode", "payload="+JSON.stringify(jdata), function(response){
         if(response['response'] == "success"){
             getCharacter($(pcDoc).find('basic_info').find('name').text());
             $("#dialogBox").dialog("close");
@@ -585,7 +585,7 @@ function addArmor() {
             node: ser.serializeToString(bit[0])
         }
     }
-    sendTo("http://localhost:9555/addNode", "payload="+JSON.stringify(jdata), function(response){
+    sendTo("/addNode", "payload="+JSON.stringify(jdata), function(response){
         if(response['response'] == "success"){
             getCharacter($(pcDoc).find('basic_info').find('name').text());
             $("#dialogBox").dialog("close");
@@ -612,7 +612,7 @@ function addMeleeWeapon(){
             node: ser.serializeToString(bit[0])
         }
     }
-    sendTo("http://localhost:9555/addNode", "payload="+JSON.stringify(jdata), function(response){
+    sendTo("/addNode", "payload="+JSON.stringify(jdata), function(response){
         if(response['response'] == "success"){
             getCharacter($(pcDoc).find('basic_info').find('name').text());
             $("#dialogBox").dialog("close");
@@ -656,7 +656,7 @@ function addRangedWeapon() {
             node: ser.serializeToString(bit[0])
         }
     }
-    sendTo("http://localhost:9555/addNode", "payload="+JSON.stringify(jdata), function(response){
+    sendTo("/addNode", "payload="+JSON.stringify(jdata), function(response){
         if(response['response'] == "success"){
             getCharacter($(pcDoc).find('basic_info').find('name').text());
             $("#dialogBox").dialog("close");
@@ -683,7 +683,7 @@ function addMisc(){
             node: ser.serializeToString(bit[0])
         }
     }
-    sendTo("http://localhost:9555/addNode", "payload="+JSON.stringify(jdata), function(response){
+    sendTo("/addNode", "payload="+JSON.stringify(jdata), function(response){
         if(response['response'] == "success"){
             getCharacter($(pcDoc).find('basic_info').find('name').text());
             $("#dialogBox").dialog("close");
@@ -708,7 +708,7 @@ function addNote() {
             node: ser.serializeToString(bit[0])
         }
     }
-    sendTo("http://localhost:9555/addNode", "payload="+JSON.stringify(jdata), function(response){
+    sendTo("/addNode", "payload="+JSON.stringify(jdata), function(response){
         if(response['response'] == "success"){
             getCharacter($(pcDoc).find('basic_info').find('name').text());
             $("#dialogBox").dialog("close");

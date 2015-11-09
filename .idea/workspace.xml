@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d490fc8f-a647-421e-8411-48d4a591d0f6" name="Default" comment="">
+    <list default="true" id="d490fc8f-a647-421e-8411-48d4a591d0f6" name="Default" comment="Updating main.js to correct url fetch">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/dialogs.js" afterPath="$PROJECT_DIR$/js/dialogs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml/characters/NigelEllingswortham.xml" afterPath="$PROJECT_DIR$/xml/characters/NigelEllingswortham.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml/characters/TestCharacter3.xml" afterPath="$PROJECT_DIR$/xml/characters/TestCharacter3.xml" />
     </list>
     <ignored path="SRCharacters.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bits.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xml/templates/bits.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestCharacter2.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xml/characters/TestCharacter2.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,8 +40,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="142" column="52" selection-start-line="142" selection-start-column="52" selection-end-line="142" selection-end-column="52" />
+            <state vertical-scroll-proportion="-116.24561">
+              <caret line="710" column="33" selection-start-line="710" selection-start-column="33" selection-end-line="710" selection-end-column="33" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -58,18 +52,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
+            <state vertical-scroll-proportion="0.0">
               <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dialogs.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dialogs.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/dialogs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="338" column="42" selection-start-line="338" selection-start-column="28" selection-end-line="338" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.6227348">
+              <caret line="250" column="150" selection-start-line="250" selection-start-column="150" selection-end-line="250" selection-end-column="150" />
               <folding>
                 <element signature="n#!!doc;n#openDialog#0" expanded="false" />
               </folding>
@@ -91,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/js/nodeserver.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+              <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
               </folding>
@@ -99,20 +93,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="NigelEllingswortham.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xml/characters/NigelEllingswortham.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-29.76923">
+              <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-80.42308">
+            <state vertical-scroll-proportion="0.0">
               <caret line="167" column="69" selection-start-line="167" selection-start-column="69" selection-end-line="167" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-ui.min.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jquery-ui.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/jquery-ui.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5314286">
+            <state vertical-scroll-proportion="10.867925">
               <caret line="6" column="14996" selection-start-line="6" selection-start-column="14960" selection-end-line="6" selection-end-column="14996" />
               <folding />
             </state>
@@ -122,8 +126,8 @@
       <file leaf-file-name="TestCharacter3.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xml/characters/TestCharacter3.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -162,16 +166,16 @@
         <option value="$PROJECT_DIR$/backups/bits_legible.xml" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/xml/characters/TestCharacter2.xml" />
-        <option value="$PROJECT_DIR$/js/dialogs.js" />
-        <option value="$PROJECT_DIR$/xml/characters/NigelEllingswortham.xml" />
         <option value="$PROJECT_DIR$/xml/templates/bits.xml" />
         <option value="$PROJECT_DIR$/xml/templates/pc_template.xml" />
         <option value="$PROJECT_DIR$/xml/characters/TestCharacter3.xml" />
         <option value="$PROJECT_DIR$/xml/templates/main.xsl" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/js/nodeserver.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/jquery-ui.min.css" />
+        <option value="$PROJECT_DIR$/xml/characters/NigelEllingswortham.xml" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/dialogs.js" />
       </list>
     </option>
   </component>
@@ -438,19 +442,25 @@
       <option name="project" value="LOCAL" />
       <updated>1447019265885</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updating main.js to correct url fetch">
+      <created>1447026435949</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1447026435949</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3157339" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -479,7 +489,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Updating nodeserver to correct notes appending" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating nodeserver to correct notes appending" />
+    <MESSAGE value="Updating nodeserver to correct url fetch" />
+    <MESSAGE value="Updating main.js to correct url fetch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating main.js to correct url fetch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -817,14 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/characters/NigelEllingswortham.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xml/templates/pc_template.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -849,16 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/dialogs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="338" column="42" selection-start-line="338" selection-start-column="28" selection-end-line="338" selection-end-column="42" />
-          <folding>
-            <element signature="n#!!doc;n#openDialog#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xml/templates/main.xsl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -867,37 +861,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="142" column="52" selection-start-line="142" selection-start-column="52" selection-end-line="142" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xml/characters/TestCharacter3.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/nodeserver.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-80.42308">
+        <state vertical-scroll-proportion="0.0">
           <caret line="167" column="69" selection-start-line="167" selection-start-column="69" selection-end-line="167" selection-end-column="69" />
           <folding />
         </state>
@@ -905,7 +879,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
@@ -913,9 +887,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/jquery-ui.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5314286">
+        <state vertical-scroll-proportion="10.867925">
           <caret line="6" column="14996" selection-start-line="6" selection-start-column="14960" selection-end-line="6" selection-end-column="14996" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/characters/NigelEllingswortham.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.76923">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/nodeserver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-116.24561">
+          <caret line="710" column="33" selection-start-line="710" selection-start-column="33" selection-end-line="710" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/dialogs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6227348">
+          <caret line="250" column="150" selection-start-line="250" selection-start-column="150" selection-end-line="250" selection-end-column="150" />
+          <folding>
+            <element signature="n#!!doc;n#openDialog#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

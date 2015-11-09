@@ -33,7 +33,7 @@ function openDialog(which){
                                         node: ser.serializeToString(bit[0])
                                 }
                             };
-                            sendTo("http://localhost:9555/addNode", "payload="+JSON.stringify(data), function(response){
+                            sendTo("/addNode", "payload="+JSON.stringify(data), function(response){
                                 if(response['response'] == "success") {
                                     $("#dialogBox").dialog("close");
                                     getCharacter(pcDoc.getElementsByTagName("basic_info")[0].getElementsByTagName("name")[0].childNodes[0].nodeValue);
@@ -246,12 +246,9 @@ function openDialog(which){
                     {
                         text: "Delete Item",
                         click: function() {
-                            sendTo("http://localhost:9555/removeNode", "payload="+JSON.stringify(jdata), function(response){
+                            sendTo("/removeNode", "payload="+JSON.stringify(jdata), function(response){
                                 if(response['response'] == "success") {
-                                    var cNode = getNodeByPos(pos);
-                                    cNode.parentNode.removeChild(cNode);
-                                    var linode = docNode.parentNode;
-                                    linode.parentNode.removeChild(linode);
+                                    getCharacter(pcDoc.getElementsByTagName("basic_info")[0].getElementsByTagName("name")[0].childNodes[0].nodeValue);
                                     $("#dialogBox").dialog("close");
                                 }
                             });
@@ -285,7 +282,7 @@ function openDialog(which){
                                     position: pos
                                 }
                             }
-                            sendTo("http://localhost:9555/removeNode", 'payload='+JSON.stringify(rdata), function(response){
+                            sendTo("/removeNode", 'payload='+JSON.stringify(rdata), function(response){
                                 if(response['response'] == "success"){
                                     $("#"+pos).remove();
                                     $(pcDoc).find(pos).remove();
