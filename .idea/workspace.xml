@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d490fc8f-a647-421e-8411-48d4a591d0f6" name="Default" comment="Updating main.js to correct url fetch">
+    <list default="true" id="d490fc8f-a647-421e-8411-48d4a591d0f6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/dialogs.js" afterPath="$PROJECT_DIR$/js/dialogs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml/characters/NigelEllingswortham.xml" afterPath="$PROJECT_DIR$/xml/characters/NigelEllingswortham.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml/characters/TestCharacter3.xml" afterPath="$PROJECT_DIR$/xml/characters/TestCharacter3.xml" />
     </list>
     <ignored path="SRCharacters.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -448,7 +444,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447026435949</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="URL fetching corrected, no longer using localhost in any browser js files">
+      <created>1447028188936</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1447028188936</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -491,7 +493,8 @@
     <MESSAGE value="Updating nodeserver to correct notes appending" />
     <MESSAGE value="Updating nodeserver to correct url fetch" />
     <MESSAGE value="Updating main.js to correct url fetch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating main.js to correct url fetch" />
+    <MESSAGE value="URL fetching corrected, no longer using localhost in any browser js files" />
+    <option name="LAST_COMMIT_MESSAGE" value="URL fetching corrected, no longer using localhost in any browser js files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
