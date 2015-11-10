@@ -9,7 +9,9 @@
             <xsl:for-each select="/character/*">
                 <div id="{name()}" class="sliderDiv">
                     <h3><xsl:value-of select="name()"/></h3>
-                    <xsl:apply-templates select="."/>
+                    <div class="sliderInside">
+						<xsl:apply-templates select="."/>
+					</div>
                 </div>
             </xsl:for-each>
     </xsl:template>
@@ -22,7 +24,7 @@
         <h4><xsl:value-of select="name" /></h4>
         <xsl:for-each select="*">
             <xsl:if test="name() != 'name' and name() != 'info' and name() != 'mods'">
-                <span class="sub_field"><xsl:value-of select="name()" />: <xsl:value-of select="." /></span>
+                <span class="sub_field"><xsl:value-of select="name()" /> : <xsl:value-of select="." /></span>
             </xsl:if>
         </xsl:for-each>
         <xsl:if test="info">
@@ -35,13 +37,7 @@
             <ul>
                 <xsl:for-each select="mods/*">
                     <li>
-                        <xsl:value-of select="name" />
-                        <xsl:if test="rating">
-                           R<xsl:value-of select="rating" />
-                        </xsl:if>
-                        <xsl:if test="info">
-                            , <xsl:value-of select="info" />
-                        </xsl:if>
+                        <xsl:value-of select="name" /><xsl:if test="rating">R<xsl:value-of select="rating" /></xsl:if><xsl:if test="info">, <xsl:value-of select="info" /></xsl:if>
                     </li>
                 </xsl:for-each>
             </ul>
@@ -63,7 +59,7 @@
         <ul id="attributes_list">
             <xsl:for-each select="*">
                 <li>
-                <span class="field"><xsl:value-of select="name()"/></span> : <span class="editable" id="attributes.{name()}" contenteditable="true"><xsl:value-of select="." /></span>
+                <span class="field"><xsl:value-of select="name()"/>:</span> <span class="editable" id="attributes.{name()}" contenteditable="true"><xsl:value-of select="." /></span>
                     <xsl:if test="@optional='true'">
                         <span class="button_removeA" onclick="removeNode('attributes.{name()}', this)">-</span>
                     </xsl:if>
@@ -74,7 +70,7 @@
     <xsl:template match="stats">
         <ul id="stats_list">
             <xsl:for-each select="*">
-                <li><span class="field"><xsl:value-of select="name()"/></span> : <span class="editable" id="stats.{name()}" contenteditable="true"><xsl:value-of select="." /></span></li>
+                <li><span class="field"><xsl:value-of select="name()"/>:</span> <span class="editable" id="stats.{name()}" contenteditable="true"><xsl:value-of select="." /></span></li>
             </xsl:for-each>
         </ul>
     </xsl:template>
@@ -99,7 +95,7 @@
     <xsl:template match="active_skills">
         <ul id="active_skills_list">
             <xsl:for-each select="skill_group">
-                <li><span class="button_remove" onclick="removeNode('active_skills.{position()}', this)">-</span><span class="skillName"><xsl:value-of select="name" /></span> <span class="editable" id="active_skills.{position()}.rating" contenteditable="true"><xsl:value-of select="rating" /></span>
+                <li><span class="button_remove" onclick="removeNode('active_skills.{position()}', this)">-</span><span class="skillName"><xsl:value-of select="name" /></span> <span class="editable" id="active_skills.{position()}.rating"><xsl:value-of select="rating" /></span>
                 <ul>
                     <xsl:for-each select="skill">
                         <li title="{name}|{../rating}|{attribute}"><xsl:value-of select="name"/></li>
@@ -108,7 +104,7 @@
             </xsl:for-each>
             <xsl:for-each select="skill">
                 <li title="{name}|{rating}|{attribute}"><span class="button_remove" onclick="removeNode('active_skills.{position()}', this)">-</span><span class="skillName"><xsl:value-of select="name" /></span>
-                    <span class="editable" id="active_skills.{position()}.rating" contenteditable="true"><xsl:value-of select="rating" /></span>
+                    <span class="editable" id="active_skills.{position()}.rating"><xsl:value-of select="rating" /></span>
                     <xsl:for-each select="specialization">
                         <p> - (<xsl:value-of select="." />)</p>
                     </xsl:for-each>
@@ -169,7 +165,7 @@
             <xsl:for-each select="*">
                 <li id="{name()}">
                     <ul>
-                        <h4><xsl:value-of select="name()"/></h4>
+                        <h3><xsl:value-of select="name()"/></h3>
                         <xsl:for-each select="item">
                             <li><span class="button_remove2" onclick="removeNode('{name(../..)}.{name(..)}.{position()}', this)">-</span>
                                 <xsl:call-template name="generic" />

@@ -84,6 +84,7 @@ function sendTo(url, data, callback){
     });
 }
 var currentCharacter;
+
 function getCharacter(charName) {
     charName = charName.split(" ").join("");
     $.ajax({
@@ -146,6 +147,25 @@ function getCharacter(charName) {
                 var cval = $(this).text();
                 $(this).text(capitalizeFirstLetter(cval));
             });
+            $(".sliderDiv > h3").one("click", function() {
+				showHideHandler1($(this));
+			});
+            function showHideHandler1(elem) {
+				var pnode = elem.parent();
+				pnode.find("div").removeClass("sliderShowing");
+				pnode.find("div").addClass("sliderHiding");
+				elem.one("click", function() {
+					showHideHandler2($(this));
+				});
+			}
+			function showHideHandler2(elem) {
+				var pnode = elem.parent();
+				pnode.find("div").removeClass("sliderHiding");
+				pnode.find("div").addClass("sliderShowing");
+				elem.one("click", function() {
+					showHideHandler1($(this));
+				});
+			}
         }
     });
 }

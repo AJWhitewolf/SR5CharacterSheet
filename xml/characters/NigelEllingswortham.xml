@@ -43,8 +43,7 @@
 			<type>positive</type>
 			<karma>3</karma>
 			<info/>
-		</quality>
-		<quality>
+		</quality><quality>
 			<name>Distinctive Style</name>
 			<type>negative</type>
 			<karma>5</karma>
@@ -59,7 +58,7 @@
 	</qualities>
 	<active_skills><skill_group>
 			<name>Athletics</name>
-			<rating>3</rating>
+			<rating>1</rating>
 			<skill>
 				<name>Running</name>
 				<attribute>strength</attribute>
@@ -364,18 +363,6 @@
 				</mods>
 			</item>
 		</armor>
-		<melee_weapons>
-			<item>
-				<name>Shock Baton</name>
-				<damage>8S</damage>
-				<accuracy>4</accuracy>
-				<reach>1</reach>
-				<skill>Clubs</skill>
-				<specialization>Batons</specialization>
-				<availability>8</availability>
-				<cost>100</cost>
-			</item>
-		</melee_weapons>
 		<ranged_weapons>
 			<item>
 				<name>Ares Predator</name>
@@ -399,6 +386,18 @@
 				</mods>
 			</item>
 		</ranged_weapons>
+		<melee_weapons>
+			<item>
+				<name>Shock Baton</name>
+				<damage>8S</damage>
+				<accuracy>4</accuracy>
+				<reach>1</reach>
+				<skill>Clubs</skill>
+				<specialization>Batons</specialization>
+				<availability>8</availability>
+				<cost>100</cost>
+			</item>
+		</melee_weapons>
 		<misc>
 			<item>
 				<name>Maglock Passkey</name>
