@@ -96,7 +96,7 @@ function getCharacter(charName) {
             pcDoc = xmlDoc;
             displayResult(xmlDoc, xslDoc);
 
-            $(".sliderDiv").accordion({collapsible: true, header: "h3"});
+            //$(".sliderDiv").accordion({collapsible: true, header: "h3"});
             var h3s = document.getElementsByTagName("h3");
             for(i=0;i<h3s.length;i++){
                 document.getElementsByTagName("h3")[i].innerText = capitalizeFirstLetter(document.getElementsByTagName("h3")[i].innerText);

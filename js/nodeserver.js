@@ -60,6 +60,10 @@ function serveFile(fileReq, res) {
                     res.end(html);
                     break;
                 case '.png':
+                    if(path.basename(fileReq) == 'Cortex-Wallpaper.png') {
+                        console.log("Wallpaper requested, sending Max-Age...");
+                        res.writeHeader(200, {'Max-Age': '31536000'})
+                    }
                     res.writeHeader(200, {'Content-Type': 'image/png'});
                     res.end(html);
                     break;

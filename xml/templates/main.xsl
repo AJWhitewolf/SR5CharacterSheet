@@ -19,10 +19,10 @@
         </xsl:for-each>
     </xsl:template>
     <xsl:template name="generic">
-        <p><b><xsl:value-of select="name" /></b></p>
+        <h4><xsl:value-of select="name" /></h4>
         <xsl:for-each select="*">
             <xsl:if test="name() != 'name' and name() != 'info' and name() != 'mods'">
-                - <xsl:value-of select="name()" /> : <xsl:value-of select="." />
+                <span class="sub_field"><xsl:value-of select="name()" />: <xsl:value-of select="." /></span>
             </xsl:if>
         </xsl:for-each>
         <xsl:if test="info">
@@ -81,7 +81,7 @@
     <xsl:template match="qualities">
         <ul id="qualities_list">
             <xsl:for-each select="quality">
-                <li><span class="button_remove" onclick="removeNode('qualities.{position()}', this)">-</span><xsl:value-of select="name"/>,
+                <li><span class="button_remove" onclick="removeNode('qualities.{position()}', this)">-</span><h4><xsl:value-of select="name"/></h4>
                     <xsl:choose>
                         <xsl:when test="type = 'positive'">
                             -
@@ -97,7 +97,7 @@
         </ul>
     </xsl:template>
     <xsl:template match="active_skills">
-        <ul id="active_skills">
+        <ul id="active_skills_list">
             <xsl:for-each select="skill_group">
                 <li><span class="button_remove" onclick="removeNode('active_skills.{position()}', this)">-</span><span class="skillName"><xsl:value-of select="name" /></span> <span class="editable" id="active_skills.{position()}.rating" contenteditable="true"><xsl:value-of select="rating" /></span>
                 <ul>
@@ -137,7 +137,7 @@
         <ul>
             <xsl:for-each select="contact">
                 <li><span class="button_remove2" onclick="removeNode('contacts.{position()}', this)">-</span>
-                    <b><xsl:value-of select="name" /></b>
+                    <h4><xsl:value-of select="name" /></h4>
                     <p>Loyalty <span class="editable" id="contacts.{position()}.loyalty"><xsl:value-of select="loyalty" /></span> / Connection <span class="editable" id="contacts.{position()}.connection"><xsl:value-of select="connection" /></span></p>
                     <p><span class="editable" id="contacts.{position()}.info"><xsl:value-of select="info" /></span></p>
                 </li>

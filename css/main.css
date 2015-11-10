@@ -4,6 +4,8 @@ body {
     padding: 0;
     margin: 0;
     font-size: 14px;
+    background: url('images/Cortex-Wallpaper.png') no-repeat;
+    background-size: cover;
 }
 p {
     text-indent: 1em;
@@ -14,7 +16,8 @@ p {
     width: 100%;
     padding: 0;
     margin: 0;
-
+    position: fixed;
+    overflow: auto;
 }
 #headerContainer {
     position: fixed;
@@ -43,6 +46,10 @@ h2, h3 {
 ul {
     position: relative;
 }
+ul li {
+    position: relative;
+}
+
 input[type="number"] {
     width: 40px;
 }
@@ -127,7 +134,6 @@ input[type="number"] {
 }
 
 
-
 #qualities p {
     font-style: italic;
 }
@@ -167,7 +173,7 @@ input[type="number"] {
 }
 #active_skills > ul > li, #knowledge_skills ul li, #languages ul li {
     display: inline-block;
-    width: 300px;
+    width: 280px;
     vertical-align: top;
     border-left: 2px solid rgba(100,100,100,0.3);
     border-top: 2px solid rgba(100,100,100,0.3);
@@ -175,6 +181,7 @@ input[type="number"] {
     box-shadow: rgba(100,100,100,0.5) 5px 5px 20px;
     background-color: rgba(200,200,200,0.8);
     margin-bottom: 2px;
+    padding-left: 20px;
 }
 #languages {
     vertical-align: top;
@@ -218,7 +225,7 @@ input[type="number"] {
 }
 #misc {
     display: block;
-    width: 100%;
+    width: 930px;
 }
 
 #charmenuheader {
@@ -237,8 +244,8 @@ input[type="number"] {
 
 
 .newButton {
-    bottom: 0;
-    right: 0;
+    bottom: -24px;
+    right: -10px;
     position: absolute;
     display: block;
     z-index: 3;
@@ -247,7 +254,7 @@ input[type="number"] {
     background-color: #aaaaaa;
     text-align: center;
     padding-top: 7px;
-    border-radius: 5px 0 0 0;
+    border-radius: 10px 0 10px 0;
     border: 1px solid #aaa;
 }
 
@@ -257,7 +264,7 @@ input[type="number"] {
 }
 .button_remove, .button_remove2 {
     display: inline-block;
-    position: relative;
+    position: absolute;
     left: -2px;
     top: -2px;
     background-color: rgba(220,220,220,0.8);
@@ -304,4 +311,38 @@ input[type="number"] {
 
 .sliderDiv {
     position: relative;
+    box-sizing: border-box;
+    margin-top: 35px;
+    border-radius: 0 10px 10px 10px;
+    background-color: rgba(190,190,190,0.7);
+    box-shadow: rgba(160,160,160,0.7) 2px 5px 10px;
+    padding: 10px;
+}
+.sliderDiv h3 {
+    position: absolute;
+    top: -41px;
+    left: 0;
+    background-color: rgba(210,210,210,0.7);
+    padding: 3px 5px 2px 10px;
+
+    border-radius: 10px 0 0 0;
+}
+.sliderDiv h3::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 24px solid rgba(210,210,210,0.7);
+    border-right: 24px solid transparent;
+    position: absolute;
+    right: -24px;
+    bottom: 0;
+}
+.sub_field {
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 3px;
+    border-bottom: 1px solid rgba(100,100,100,0.5);
+}
+ul li h4 {
+    margin: 3px 0 5px 20px;
 }
