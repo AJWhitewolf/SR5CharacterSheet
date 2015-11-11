@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d490fc8f-a647-421e-8411-48d4a591d0f6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="SRCharacters.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -477,11 +476,17 @@
       <option name="project" value="LOCAL" />
       <updated>1447139357309</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Color selection">
+      <created>1447182636314</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1447182636314</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -522,7 +527,8 @@
     <MESSAGE value="Updating main.js to correct url fetch" />
     <MESSAGE value="URL fetching corrected, no longer using localhost in any browser js files" />
     <MESSAGE value="Removed JQueryUI Sliders, created new content borders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed JQueryUI Sliders, created new content borders" />
+    <MESSAGE value="Color selection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Color selection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
